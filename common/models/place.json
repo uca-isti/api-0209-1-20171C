@@ -1,0 +1,23 @@
+{
+  "name": "Place",
+  "plural": "Places",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "placeName": {
+      "type": "string",
+      "required": true
+    },
+    "coordinate": {
+      "type": "geopoint",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
