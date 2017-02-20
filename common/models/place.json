@@ -20,4 +20,13 @@
   "relations": {},
   "acls": [],
   "methods": {}
+},
+"acls": [
+  {
+  "accessType": "READ",
+  "principalType": "ROLE",
+  "principalId": "$authenticated",
+  "permission": "ALLOW",
+  "property": "create"
 }
+]
