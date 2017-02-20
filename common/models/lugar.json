@@ -7,8 +7,12 @@
     "validateUpsert": true
   },
   "properties": {
-    "text": {
+    "nombre": {
       "type": "string",
+      "required": true
+    },
+    "coordenada": {
+      "type": "GeoPoint",
       "required": true
     }
   },
