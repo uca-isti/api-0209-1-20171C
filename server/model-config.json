@@ -32,6 +32,10 @@
     "dataSource": "db",
     "public": false
   },
+  "Lugar": {
+    "dataSource": "db",
+    "public": true
+  },
   "Place": {
     "dataSource": "db",
     "public": true
