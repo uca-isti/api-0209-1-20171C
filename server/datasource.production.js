@@ -1,5 +1,5 @@
 module.exports = {
-  database: {
+  db: {
     url: process.env.DATABASE_URL,
     connector: 'postgresql'
   }
